@@ -9,5 +9,6 @@ for file in zones/*.zone ; do
         if [ $? -ne 0 ]; then
         failure=1
         fi
+    fi
 done
 exit $failure
