@@ -1,9 +1,9 @@
-name: "named-checkzone Action"
-description: "Action to check BIND DNS zones"
-author: "Mitchell"
+name: 'named-checkzone Action'
+description: 'Action to check BIND DNS zones'
+author: 'Mitchell'
 runs:
-  using: "docker"
-  main: "Dockerfile"
+  using: 'docker'
+  main: 'Dockerfile'
 branding:
   icon: check-circle
   color: green
