@@ -3,7 +3,7 @@ description: 'Action to check BIND DNS zones'
 author: 'Mitchell'
 runs:
   using: 'docker'
-  main: 'Dockerfile'
+  image: 'Dockerfile'
 branding:
   icon: check-circle
   color: green
